@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculation"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="85dp"
+        android:layout_marginStart="68dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calculateS"
+            android:textColor="@color/pink"
+            android:textSize="36sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="41dp"
+        android:background="@color/lightblue">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/countMetres"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:paddingTop="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="16dp"
+            android:layout_marginTop="110dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rez"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:background="@color/white"
+            android:layout_gravity="center"
+            android:paddingTop="5dp"
+            android:paddingBottom="16dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="100dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue"
+            android:text="@string/registration"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:paddingStart="70dp"
+            android:paddingEnd="65dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:layout_gravity="center"
+            android:onClick="click"
+            android:layout_marginBottom="34dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

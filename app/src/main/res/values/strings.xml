@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SiverOD_02_03</string>
+    <string name="registration">Регистрация</string>
+    <string name="enterLogAndPas">Введите ваш логин и пароль</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="enter">Войти</string>
+    <string name="calculateS">Расчет площади</string>
+    <string name="back">на главное меню</string>
+    <string name="calculate">Рассчитать</string>
+    <string name="rez">результат</string>
+    <string name="enterMetres">введите количество метров</string>
+    <string name="rezCalculate">Результат расчета</string>
+    <string name="countMetres">количество метров</string>
+</resources>
