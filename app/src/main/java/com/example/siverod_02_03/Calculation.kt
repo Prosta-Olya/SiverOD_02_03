@@ -13,6 +13,6 @@ class Calculation : AppCompatActivity() {
 
     fun click(view: View) {
         val intent = Intent(this, MainActivity::class.java)
-        setIntent(intent)
+        startActivity(intent)
     }
 }
